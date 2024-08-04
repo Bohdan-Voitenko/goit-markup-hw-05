@@ -76,6 +76,9 @@ img {
 
 .page-header {
    border-bottom: 1px solid #e7e9fc;
+   display: flex;
+   align-items: center;
+
 }
 
 .header-nav{
@@ -89,6 +92,7 @@ img {
    display: flex;
    align-items: center;
    gap: 40px;
+   margin-right: 332px;
 }
 
 .contacts-list {
@@ -125,7 +129,7 @@ img {
 
 .header-logo .logo-part {
    display: block;
-   padding: 24px 0;
+   padding: 24px 0 24px;
    font-family: "Roboto", sans-serif;
    font-weight: 500;
    font-size: 16px;
@@ -211,14 +215,10 @@ img {
 
 .wrapper-list{
    padding: 120px 0;
-   font-size: 16px;
-   line-height: 24px; 
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: #434455;
+   padding: 120px 0;
 }
 
-.top-container {
+.wrapper-text{
    width: 1158px;
 }
 
