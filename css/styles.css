@@ -154,7 +154,7 @@ img {
 }
 
 .contacts-link {
-   display: block;
+   display:block ;
    padding: 24px 0;
    font-style: normal;
    font-weight: 400;
@@ -182,6 +182,11 @@ img {
    display: flex;
    align-items: center;
    padding: 188px 0;
+}
+
+.top-container{
+   width: 1158px;
+   margin: 0 auto;
 }
 
 .button-servise {
@@ -257,8 +262,8 @@ img {
 .team {
    width: 1128px;
    margin: 0 auto;
-   padding-top: 32px;
-   padding-bottom: 32px;
+   padding-top: 120px;
+   padding-bottom: 120px;
 }
 
 .container-team {
@@ -330,6 +335,11 @@ img {
    padding-top: 120px;
     padding-bottom: 120px;
     margin: 0 auto;
+}
+
+.tittle-list-portfolio{
+   margin-bottom: 72px;
+   align-items: center;
 }
 
 .portfolio-list{
