@@ -103,8 +103,6 @@ img {
 .header-container {
    display: flex;
    align-items: center;
-   width: 1440px;
-   height: 72px;
 }
 
 .top-logo {
@@ -140,6 +138,8 @@ img {
 .nav-link:hover,
 .nav-link:focus {
    color: #404bbf;
+   padding: 24px 0;
+   display: block;
 }
 
 .contacts {
@@ -272,7 +272,7 @@ img {
    padding-bottom: 32px;
 }
 
-.title-team {
+.tittle-team {
    font-weight: 700;
    font-size: 36px;
    line-height: 1.11;
