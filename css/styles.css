@@ -138,6 +138,9 @@ img {
 .nav-link:hover,
 .nav-link:focus {
    color: #404bbf;
+}
+
+.nav-link{
    padding: 24px 0 24px;
    display: block;
 }
