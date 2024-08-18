@@ -98,7 +98,7 @@ img {
 position: relative;
 }
 
-.nav-link.current ::after{
+.nav-link.current ::afterg{
 content: '';
 
 position: absolute;
