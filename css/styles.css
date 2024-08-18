@@ -78,6 +78,7 @@ img {
    border-bottom: 1px solid #e7e9fc;
    display:flex;
    align-items: center;
+   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header-nav{
@@ -91,6 +92,23 @@ img {
    display: flex;
    align-items: center;
    gap: 40px;
+}
+
+.nav-link.current{
+position: relative;
+}
+
+.nav-link.current ::after{
+content: '';
+
+position: absolute;
+left: 0;
+bottom: -1px;
+
+width: 100px;
+height: 4px;
+background-color:#404bbf;
+border-radius: 2px;
 }
 
 .contacts-list {
