@@ -508,6 +508,7 @@ width: 1158px;
 height: 112px;
 padding: 0 15px;
 margin: 0 auto;
+display: flex;
 }
 
 .footer-logo .logo-part{
@@ -537,4 +538,36 @@ margin: 0 auto;
    letter-spacing: 0.02em;
    color: #f4f4fd;
    max-width: 264px;
+}
+
+.footer-logo-text {
+   margin-right: 120px;
+}
+
+.text-media {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #fff;
+   margin-bottom: 16px;
+}
+
+.social-list-footer {
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-direction: row;
+   gap: 16px;
+   transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   ;
+}
+
+.social-list-footer .team-social-link:hover .social-link-list {
+   background-color: #31d0aa;
+}
+
+.social-list-footer .team-social-link .social-link-list:focus {
+   background-color: #31d0aa;
 }
